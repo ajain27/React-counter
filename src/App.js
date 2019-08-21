@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Counters from './components/counters'
-import Navbar from './components/navbar'
+import Counters from './components/Counter/counters'
+import Navbar from './components/NavBar/navbar'
 
 class App extends Component {
   state = {
