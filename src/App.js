@@ -55,9 +55,9 @@ class App extends Component {
           <Counters
             onReset={this.handleReset}
             onIncrement={this.handleIncrement}
+            onDecrement={this.handleDecrement}
             onDelete={this.handleDelete}
             counters={this.state.counters}
-            onDecrement={this.state.handleDecrement}
           />
         </main>
       </React.Fragment>
